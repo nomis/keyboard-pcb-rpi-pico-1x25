@@ -6,20 +6,18 @@
 # - https://www.gnu.org/software/sed/
 
 .DELETE_ON_ERROR:
+.PHONY: all
 
-keyboard-pcb-rpi-pico-1x25.svg: \
-		keyboard-pcb-rpi-pico-1x25.svg.in \
-		build/keyboard-pcb-rpi-pico-1x25-top.bare-svg \
-		build/keyboard-pcb-rpi-pico-1x25-bottom.bare-svg Makefile
+all: keyboard-pcb-rpi-pico-1x25.svg
+
+%.svg: %.svg.in build/%-top.bare-svg build/%-bottom.bare-svg Makefile
 	m4 < $< > $@
 
-build/keyboard-pcb-rpi-pico-1x25-top.svg build/keyboard-pcb-rpi-pico-1x25-bottom.svg: \
-		keyboard-pcb-rpi-pico-1x25.kibot.yaml \
-		keyboard-pcb-rpi-pico-1x25.kicad_pcb
-	kibot
+build/%-top.svg build/%-bottom.svg: %.kicad_pcb default.kibot.yaml
+	kibot -e $<
 
-build/keyboard-pcb-rpi-pico-1x25-%.bare-svg: \
-		build/keyboard-pcb-rpi-pico-1x25-%.svg Makefile
+build/%.bare-svg: \
+		build/%.svg Makefile
 	sed \
 		-e 's:<!DOCTYPE [^>]\+>::' \
 		-e 's:<svg \([^>]*\) width="[^"]*"\([^>]*\)>:<svg \1\2>:' \
