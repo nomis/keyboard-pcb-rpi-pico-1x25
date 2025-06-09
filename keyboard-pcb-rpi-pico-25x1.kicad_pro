@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "keyboard-pcb-rpi-pico-1x25.kicad_pro",
+    "filename": "keyboard-pcb-rpi-pico-25x1.kicad_pro",
     "version": 1
   },
   "net_settings": {

@@ -8,7 +8,7 @@
 .DELETE_ON_ERROR:
 .PHONY: all
 
-all: keyboard-pcb-rpi-pico-1x25.svg
+all: keyboard-pcb-rpi-pico-25x1.svg
 
 %.svg: %.svg.in build/%-top.bare-svg build/%-bottom.bare-svg Makefile
 	m4 < $< > $@
