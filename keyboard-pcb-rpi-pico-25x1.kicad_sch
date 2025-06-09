@@ -5016,7 +5016,7 @@
 			(uuid "61d28649-057f-4ea3-81ab-f45e34afd72e")
 		)
 		(instances
-			(project "keyboard-pcb-rpi-pico-1x25"
+			(project "keyboard-pcb-rpi-pico-25x1"
 				(path "/9d5d93ae-abc1-41de-94ac-25ec70e657e4"
 					(reference "H3")
 					(unit 1)
@@ -5759,7 +5759,7 @@
 			(uuid "55f58fed-a930-4a63-bd54-ce39ad89101b")
 		)
 		(instances
-			(project "keyboard-pcb-rpi-pico-1x25"
+			(project "keyboard-pcb-rpi-pico-25x1"
 				(path "/9d5d93ae-abc1-41de-94ac-25ec70e657e4"
 					(reference "H2")
 					(unit 1)
