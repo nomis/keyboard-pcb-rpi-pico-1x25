@@ -18,6 +18,21 @@ This is a KiCad project. Manufacture the PCB and then insert a Raspberry Pi
 Pico at the top with the USB connector facing upwards. Fit Cherry MX switches
 in all positions and connect external RGB LEDs (optional).
 
+Components
+----------
+
++---------+----------------------------------------------------------------+
+| Ref     | Name                                                           |
++=========+================================================================+
+|         | Raspberry Pi Pico                                              |
++---------+----------------------------------------------------------------+
+| PICO-L1 | 1x20 Pin Socket, Through Hole (2.54mm)                         |
++---------+----------------------------------------------------------------+
+| PICO-R1 | 1x20 Pin Socket, Through Hole (2.54mm)                         |
++---------+----------------------------------------------------------------+
+| LEDS1   | 1x04 Pin Header, Right-Angled Through Hole (2.54mm) (optional) |
++---------+----------------------------------------------------------------+
+
 Switches
 --------
 
