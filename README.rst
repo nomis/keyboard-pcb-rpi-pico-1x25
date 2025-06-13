@@ -72,3 +72,8 @@ LEDs
 ----
 
 The LEDS1 pin header has GP28 for data, 3.3V, 5V and GND.
+
+Related Software
+----------------
+
+* `QMK (Quantum Mechanical Keyboard) Firmware <https://github.com/nomis/qmk_firmware/tree/rpi_pico_25x1/keyboards/nomis/rpi_pico_25x1>`_
