@@ -9,7 +9,7 @@ PCB for a 25x1 keyboard connected to a Raspberry Pi Pico.
 .. image:: keyboard-pcb-rpi-pico-25x1.svg
    :alt: Front and back of PCB
 
-Dimensions: 25.4mm W × 499.11mm H × ~18mm D
+Dimensions: 25.4mm W × 499.11mm H × ~32mm D
 
 Usage
 -----
