@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                width="45.4mm" height="519.1mm" viewBox="33.18 29.37 45.4 519.1">
+        <style type="text/css">
+        rect, circle { stroke: black; stroke-width: 0.5; fill: none; }
+        </style>
+
+        <rect x="38.1800" y="34.3700" rx="5" ry="5" width="35.4" height="509.1"/>
+
+        <rect id="SW1" x="48.8800" y="43.8000" width="14" height="14"/>
+        <rect id="SW2" x="48.8800" y="62.8650" width="14" height="14"/>
+        <rect id="SW3" x="48.8800" y="81.9000" width="14" height="14"/>
+        <rect id="SW4" x="48.8800" y="100.9500" width="14" height="14"/>
+        <rect id="SW5" x="48.8800" y="120.0000" width="14" height="14"/>
+        <rect id="SW6" x="48.8800" y="144.1300" width="14" height="14"/>
+        <rect id="SW7" x="48.8800" y="163.1800" width="14" height="14"/>
+        <rect id="SW8" x="48.8800" y="182.2300" width="14" height="14"/>
+        <rect id="SW9" x="48.8800" y="201.2800" width="14" height="14"/>
+        <rect id="SW10" x="48.8800" y="220.3300" width="14" height="14"/>
+        <rect id="SW11" x="48.8800" y="244.4600" width="14" height="14"/>
+        <rect id="SW12" x="48.8800" y="263.5100" width="14" height="14"/>
+        <rect id="SW13" x="48.8800" y="282.5600" width="14" height="14"/>
+        <rect id="SW14" x="48.8800" y="301.6250" width="14" height="14"/>
+        <rect id="SW15" x="48.8800" y="320.6600" width="14" height="14"/>
+        <rect id="SW16" x="48.8800" y="344.7900" width="14" height="14"/>
+        <rect id="SW17" x="48.8800" y="363.8400" width="14" height="14"/>
+        <rect id="SW18" x="48.8800" y="382.8900" width="14" height="14"/>
+        <rect id="SW19" x="48.8800" y="401.9400" width="14" height="14"/>
+        <rect id="SW20" x="48.8800" y="420.9900" width="14" height="14"/>
+        <rect id="SW21" x="48.8800" y="445.1200" width="14" height="14"/>
+        <rect id="SW22" x="48.8800" y="464.1700" width="14" height="14"/>
+        <rect id="SW23" x="48.8800" y="483.2200" width="14" height="14"/>
+        <rect id="SW24" x="48.8800" y="502.2700" width="14" height="14"/>
+        <rect id="SW25" x="48.8800" y="521.3200" width="14" height="14"/>
+
+        <circle id="H1" cx="55.8800" cy="139.0650" r="1.5"/>
+        <circle id="H2" cx="55.8800" cy="339.7250" r="1.5"/>
+        <circle id="H3" cx="55.8800" cy="440.0550" r="1.5"/>
+</svg>
