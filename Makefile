@@ -15,7 +15,7 @@ all: keyboard-pcb-rpi-pico-25x1.svg
 	m4 < $< > $@
 
 build/%-top.svg build/%-bottom.svg: %.kicad_pcb default.kibot.yaml
-	kibot -e $<
+	kibot -b $<
 
 build/%-top.rewrite-id-svg: build/%-top.svg Makefile
 	sed -e 's: id=": id="t-:g' -e 's:url(#:url(#t-:g' < $< > $@
